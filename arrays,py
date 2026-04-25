@@ -1,0 +1,4 @@
+corinthians = [67, 22, 30, 74]
+
+print(corinthians[0])
+

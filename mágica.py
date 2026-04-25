@@ -1,0 +1,5 @@
+print('seja bem vindo a minha mágica mirabolante!')
+print("Escolha uma carta: K ♥️ 7♠️ A♦️ 3♣️ J♥️")
+input("Aperte ENTER para revelar e sua carta sumirá!")
+print('Q♠️ 10♥️ 2♦️ 9♣️ 6♠️')
+print("Ops, parece que sua carta sumiu!")
