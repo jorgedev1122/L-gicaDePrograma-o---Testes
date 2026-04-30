@@ -76,8 +76,10 @@
             <h3>while.py</h3>
             <p>Exercícios práticos com loops while e iterações em Python...</p>
         </div>
-    </div>
-
+        <div class="card" onclick="abrirDetalhes('simuladordecompras.py', 'Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos de forma prática, não sendo algo extremamente complexo, entretando o suficiente para aplicar o conhecimento de interpretação de erros.')">
+            <h3>simuladordecompras.py</h3>
+            <p>Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos...</p>
+        </div>
     <!-- Pop-up Modal para Detalhes Expandidos -->
     <div id="popupDetalhes" class="popup">
         <div class="popup-content">
@@ -173,8 +175,13 @@
             <h3>while.py</h3>
             <p>Exercícios práticos com loops while e iterações em Python. Cobre como criar repetições baseadas em condições, evitar loops infinitos com condições de parada apropriadas e usar variáveis contadoras. Essencial para dominar a repetição controlada de código e entender quando usar while versus outras estruturas de iteração.</p>
         </div>
+    <div id="popupSimuladordecompras" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('popupSimuladordecompras')">&times;</span>
+            <h3>simuladordecompras.py</h3>
+            <p>Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos de forma prática, não sendo algo extremamente complexo, entretando o suficiente para aplicar o conhecimento de interpretação de erros.</p>
+        </div>
     </div>
-
     <script>
         function abrirDetalhes(titulo, descricao) {
             const conteudo = `
