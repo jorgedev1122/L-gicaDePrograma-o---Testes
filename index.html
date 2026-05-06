@@ -17,7 +17,7 @@
     <!-- Card Principal de Informações -->
     <div class="card-principal">
         <h2>ℹ️ Sobre Este Repositório</h2>
-        <p>Este repositório é apenas <strong>teste de Python</strong> e não há nada de muito especial. Contém exercícios e práticas de lógica de programação em Python para fins educacionais e de aprendizado.</p>
+        <p>Este repositório é apenas uma pasta com vários arquivos de <strong>teste de Python</strong> e não há nada de muito especial. Contém exercícios e práticas de lógica de programação em Python para fins educacionais e de aprendizado.</p>
     </div>
 
     <!-- Grid de Cards dos Arquivos -->
@@ -79,7 +79,21 @@
         <div class="card" onclick="abrirDetalhes('simuladordecompras.py', 'Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos de forma prática, não sendo algo extremamente complexo, entretando o suficiente para aplicar o conhecimento de interpretação de erros.')">
             <h3>simuladordecompras.py</h3>
             <p>Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos...</p>
+        </div>    
+        <div class="card" onclick="abrirDetalhes('desafiodedebug.py', 'Exercício prático de depuração (debugging) em Python. Contém erros intencionais em um código que calcula a média de uma lista de números, encontra o maior número em uma lista e outras funções básicas. O objetivo é identificar e corrigir os erros para que o código funcione corretamente, desenvolvendo habilidades de análise e resolução de problemas.')">
+            <h3>desafiodedebug.py</h3>
+            <p>Exercício prático de depuração (debugging) em Python...</p>
         </div>
+        <div class="card" onclick="abrirDetalhes('desafiodedebug2.py', 'Exercício prático de depuração (debugging) em Python. Contém erros intencionais em diversos códigos: contagens de números pares, inversão de texto, busca de nomes em listas e outras funções básicas. O objetivo é identificar e corrigir os erros para que o código funcione corretamente, desenvolvendo habilidades de análise e resolução de problemas.')">
+            <h3>desafiodedebug2.py</h3>
+            <p>Exercício prático de depuração (debugging) em Python...</p>
+        </div>
+    </div>    
+
+
+
+
+
     <!-- Pop-up Modal para Detalhes Expandidos -->
     <div id="popupDetalhes" class="popup">
         <div class="popup-content">
@@ -181,6 +195,14 @@
             <h3>simuladordecompras.py</h3>
             <p>Exercício simples para interpretar e entender melhor erros de sintaxe, sintáticos e léxicos de forma prática, não sendo algo extremamente complexo, entretando o suficiente para aplicar o conhecimento de interpretação de erros.</p>
         </div>
+    <div id="popupDesafiodedebug" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup('popupDesafiodedebug')">&times;</span>
+            <h3>desafiodedebug.py</h3>
+            <p>Exercício prático de depuração (debugging) em Python. Contém erros intencionais em um código que calcula a média de uma lista de números, encontra o maior número em uma lista e outras funções básicas. O objetivo é identificar e corrigir os erros para que o código funcione corretamente, desenvolvendo habilidades de análise e resolução de problemas.</p>
+        </div>
+    </div>
+
     </div>
     <script>
         function abrirDetalhes(titulo, descricao) {
