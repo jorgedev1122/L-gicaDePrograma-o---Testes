@@ -2,7 +2,7 @@
 
 ## 📝 Sobre Este Repositório
 
-Este é um repositório **apenas para testes e estudos** de Python. Não há nada de muito especial por aqui! 😄
+Este é um repositório **apenas para testes e estudos** de Python. Não há nada de muito especial por aqui, caso queira saber detalhadamente mais sobre cada arquivo, apenas entre em contato e talvez eu consiga explicar um pouquinho melhor.
 
 Contém uma coleção de exercícios e práticas de **lógica de programação** em Python, úteis para fins educacionais e aprendizado.
 
